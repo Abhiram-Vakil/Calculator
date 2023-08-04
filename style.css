@@ -8,7 +8,7 @@
 }
 
 body{
-    height: 900px;
+    height: 750px;
     display: flex;
     align-items: center;
     background: rgb(0, 0, 0);
@@ -18,9 +18,24 @@ body{
 .calculator{
     width: 412px;
     padding: 10px;
+    margin-left: 30px;
     border-radius: 1%;
     background-color: rgb(36, 36, 36);
-    height: 650px;
+    height: 680px;
+}
+
+.goback{
+    color: white;
+    text-decoration: none;
+    padding-left: 6px;
+}
+.frame_goback{
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+    background-color: rgb(10, 103, 146);
+    width: 90px;
+    border-radius: 8px;
 }
 
 input{
