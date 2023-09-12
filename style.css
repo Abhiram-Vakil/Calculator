@@ -1,14 +1,20 @@
 body {
   background: #1f2554;
+
+}
+.elipsecont{
+ 
+  height: 100vh;
+  width: 1000px;
   overflow: hidden;
 }
-
 .elipse {
   width: 800px;
   height: 800px;
   border-radius: 100%;
   background: #6674bf;
-  position: absolute;
+  overflow: hidden;
+  position: relative;
   top: 100px;
   left: -300px;
 }
@@ -16,7 +22,7 @@ body {
 .calimg {
   transform: rotate(30deg);
   flex-shrink: 0;
-  position: absolute;
+  position: relative;
   top: 50px;
   left: 100px;
 }
@@ -116,7 +122,7 @@ button:hover {
   body {
     height: 840px;
     width: 100%;
-    overflow: scroll;
+    overflow-y: scroll;
   }
   .elipse {
     width: 500px;
