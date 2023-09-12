@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 750px;
+    display: flex;
+    align-items: center;
+    background: rgb(0, 0, 0);
+     
+}
+
+.calculator{
+    width: 412px;
+    padding: 10px;
+    margin-left: 30px;
+    border-radius: 1%;
+    background-color: rgb(36, 36, 36);
+    height: 680px;
+}
+
+.goback{
+    color: white;
+    text-decoration: none;
+    padding-left: 6px;
+}
+.frame_goback{
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+    background-color: rgb(10, 103, 146);
+    width: 90px;
+    border-radius: 8px;
+}
+
+input{
+    width: 360px;
+    border: 10px;
+    padding: 24px;
+    margin: 10px;
+    background: black;
+    font-size: 50px;
+    text-align: right;
+    cursor: pointer;
+    color: white;
+    border-radius: 2%;
+
+}
+
+input::placeholder{
+    color: white;
+}
+
+button{
+    background-color: rgb(14, 14, 14);
+    border: none;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    border-radius: 5%;
+    font-size: 25px;   
+    color: white;
+    
+
+}
+.func{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 100%;
+}
+.eqbt{
+    
+    width: 174px;
+    background-color: rgb(10, 103, 146);
+    color: white;
+}
+.operator{
+    background-color: rgb(10, 103, 146);
+    color: white;
+}
+
