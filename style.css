@@ -41,13 +41,12 @@ body {
   font-weight: 400;
   line-height: normal;
   letter-spacing: 3.32px;
-  width: 881px;
+  width: 518px;
   height: 97px;
   flex-shrink: 0;
   position: absolute;
   top: 100px;
   left: 580px;
-  width: 700px;
 }
 
 .dis {
